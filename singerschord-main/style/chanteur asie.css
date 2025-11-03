@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+header {
+
+    position: relative;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: teal;
+    color: #fff;
+
+
+}
+
+ul {
+    background-color: teal;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+nav li {
+    List-style: none;
+    flex-direction: row
+}
+
+nav li span {
+    display: flex;
+}
+
+li a {
+    padding: 5px;
+    background-color: #6e8d94;
+    font-size: 20px;
+    font-family: Copperplate, Papyrus, fantasy
+}
+
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.cart a {
+
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    justify-content: left;
+
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    display: flexbox
+}
